@@ -1,0 +1,17 @@
+{
+	"name": "ImagesLoaded",
+	"version": "0.1.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Jamesmontalvo3 James Montalvo]",
+	"url": "http://github.com/enterprisemediawiki/ImagesLoaded",
+	"descriptionmsg": "imagesloaded-desc",
+	"type": "other",
+	"AutoloadClasses": {
+		"ImagesLoaded": "ImagesLoaded.class.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"ImagesLoaded::onBeforePageDisplay"
+		]
+	},
+	"manifest_version": 1
+}
